@@ -1,14 +1,35 @@
-
 .container{
+  text-align: center;
   width: 400px;
-  height: 150px;
+  height: 200px;
   border: 2px solid black;
   border-radius: 5px;
-  padding: 200px;
-  margin: 200px;
-  
+  padding: 100px;
+  margin: auto;
+
 }
+#answers{
+  width: 100%;
+} 
 .top-btn{
     margin: 2px;
     float: left;
+    text-align: left;
+
 }
+.text {
+  display: none;
+}
+#startQuiz{
+  margin-top: 5px
+}
+button{
+  border : 1px solid black;
+  padding: 5px;
+  margin: 2px;
+  background-color: #bfeeef;
+}
+button:hover{
+  background-color: #99e8ea;
+}
+ 
